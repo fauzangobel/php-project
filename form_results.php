@@ -7,6 +7,7 @@ $tipekamar = $_POST['tipe_kamar'];
 $durasitinggal = $_POST['wktu_menginap'];
 $deluxe = 300000;
 $superior = 650000;
+$president = 1000000;
 ?>
 
 <!DOCTYPE html>
@@ -34,6 +35,9 @@ $superior = 650000;
                 echo "Rp. &nbsp".$total_biaya;
             }elseif($tipekamar ==    "Superior"){
                $total_biaya = $superior * $durasitinggal;
+                echo "Rp. &nbsp".$total_biaya;
+            }elseif($tipekamar ==    "President"){
+               $total_biaya = $president * $durasitinggal;
                 echo "Rp. &nbsp".$total_biaya;
             };
             
