@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyHotel</title>
+    <title>MyHotel - WELCOME</title>
 </head>
 <body>
     
@@ -15,6 +15,8 @@
     <ul>
         <li> <a href="form_orders.php">Get Your Room !</a> </li>
     </ul>
+    
+    <h3> ORDER NOW !</h3>
 
     <p> Copyrights @ My-Hotel - Author : Andi Mohamad Nurholis Sorejang </p>
 </body>
